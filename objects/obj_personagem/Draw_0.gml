@@ -15,30 +15,60 @@ if alarm[3] > 0{
 	image_alpha = 1;
 }
 
-// Lista de camadas de tiles
-var tile_layers = ["Tiles_Veins_Back_Room1", "Tiles_Veins_Back_Room2", "Tiles_Veins_Back_Room3"];
+// Definir camadas de tiles para cada sala
+var tile_layers_room1 = ["Tiles_Veins_Back_Room1"];
+var tile_layers_room2 = ["Tiles_Veins_Back_Room2"];
+var tile_layers_room3 = ["Tiles_Veins_Back_Room3"];
+
+// Obter o nome da sala atual
+var current_room = room;
+
+// Selecionar camadas de tiles baseadas na sala atual
+var tile_layers;
+switch (current_room) {
+    case Room1: // Certifique-se de que 'rm_room1' é o nome correto da sala
+        tile_layers = tile_layers_room1;
+        break;
+    case Room2: // Certifique-se de que 'rm_room2' é o nome correto da sala
+        tile_layers = tile_layers_room2;
+        break;
+    case Room3: // Certifique-se de que 'rm_room3' é o nome correto da sala
+        tile_layers = tile_layers_room3;
+        break;
+    default:
+        tile_layers = [];
+        break;
+}
 
 // Obter a posição Y do personagem
 var personagem_y = y;
 
-// Loop para desenhar cada camada de tilemap
+// Separar as camadas em duas listas: acima e abaixo do personagem
+var above_layers = [];
+var below_layers = [];
+
+// Classificar camadas com base na profundidade
 for (var i = 0; i < array_length_1d(tile_layers); i++) {
     var tile_layer_id = layer_get_id(tile_layers[i]);
     var tilemap_id = layer_tilemap_get_id(tile_layer_id);
 
-    // Desenhar o tilemap e o personagem baseado na posição Y
-    if (personagem_y > y) {
-        // Desenhar o tilemap primeiro
-        draw_tilemap(tilemap_id, 0, 0);
+    // Adicionar a camada à lista apropriada com base na profundidade
+    if (layer_get_depth(tile_layer_id) < depth) {
+        array_push(below_layers, tilemap_id);
+    } else {
+        array_push(above_layers, tilemap_id);
     }
+}
 
-    // Desenhar o personagem apenas uma vez na posição correta
-    if (i == 0) {
-        draw_self();
-    }
+// Desenhar as camadas abaixo do personagem
+for (var i = 0; i < array_length_1d(below_layers); i++) {
+    draw_tilemap(array_get(below_layers, i), 0, 0);
+}
 
-    if (personagem_y <= y) {
-        // Desenhar o tilemap por trás do personagem
-        draw_tilemap(tilemap_id, 0, 0);
-    }
+// Desenhar o personagem
+draw_self();
+
+// Desenhar as camadas acima do personagem
+for (var i = 0; i < array_length_1d(above_layers); i++) {
+    draw_tilemap(array_get(above_layers, i), 0, 0);
 }

@@ -52,3 +52,12 @@ dano[5] = 20;
 atacar = false;
 
 dano_alpha = -1;
+
+// Definir camadas de tiles específicas para a room atual
+if (room == Room1) {
+    tile_layers = ["Tiles_Veins_Back_Room1"];
+} else if (room == Room2) {
+    tile_layers = ["Tiles_Veins_Back_Room2"];
+} else if (room == Room3) {
+    tile_layers = ["Tiles_Veins_Back_Room3"];
+}
