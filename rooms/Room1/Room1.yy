@@ -76,7 +76,7 @@
           3331,3332,3333,3334,3335,3336,-21,-2147483648,11,3377,3378,3379,3380,3381,3382,3383,3384,3385,3386,3387,
           -21,-2147483648,11,3428,3429,3430,3431,3432,3433,3434,3435,3436,3437,3438,-114,-2147483648,1,0,-92,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"ts_objects","path":"tilesets/ts_objects/ts_objects.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"$GMRTileLayer":"","%Name":"Tiles_Rock_Front_Room1","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Rock_Front_Room1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":18,"SerialiseWidth":32,"TileCompressedData":[
+    {"$GMRTileLayer":"","%Name":"Tiles_Rock_Room1","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Rock_Room1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":18,"SerialiseWidth":32,"TileCompressedData":[
           -2,0,1,675,-10,-2147483648,-4,0,-12,-2147483648,-2,0,1,675,-3,0,-4,-2147483648,3,931,932,933,-3,-2147483648,
           -4,0,-12,-2147483648,-6,0,-4,-2147483648,3,982,983,984,-3,-2147483648,-4,0,-12,-2147483648,-3,0,-7,-2147483648,
           3,1033,1034,1035,-3,-2147483648,1,2384,-3,0,-30,-2147483648,1,0,-76,-2147483648,2,227,228,-8,-2147483648,

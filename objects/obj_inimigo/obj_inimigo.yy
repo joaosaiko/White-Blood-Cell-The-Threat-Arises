@@ -8,8 +8,8 @@
   "name":"obj_inimigo",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"inimigos",
+    "path":"folders/Objetos/inimigos.yy",
   },
   "parentObjectId":{
     "name":"par_inimigos",
