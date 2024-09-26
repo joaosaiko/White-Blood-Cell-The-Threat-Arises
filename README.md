@@ -75,6 +75,6 @@ Para duvidas ou sugestões entre em contato: joaovictor.araujo14@outlook.com
 ---
 
 ## Agradecimentos 🙏
-Profundos agradecimentos ao [Craftpix](https://craftpix.net/) e ao canal [Ponto e Vírgula](https://www.youtube.com/c/PontoeV%C3%ADrgulaOficial) no YouTube por terem contribuído para a realização deste protótipo para a pesquisa de monografia.
+Profundos agradecimentos ao [Craftpix](https://craftpix.net/) pelos materiais gratuito e ao canal [Ponto e Vírgula](https://www.youtube.com/c/PontoeV%C3%ADrgulaOficial) no YouTube pela ótima introdução ao gamemaker.
 
 ---
