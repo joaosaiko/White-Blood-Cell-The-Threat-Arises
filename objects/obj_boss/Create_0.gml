@@ -6,3 +6,4 @@ vida = vida_max;
 ataque = 5;
 
 global.dialogo = true;
+boss_vivo = true;

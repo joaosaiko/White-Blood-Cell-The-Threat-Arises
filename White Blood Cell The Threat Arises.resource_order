@@ -34,6 +34,7 @@
     {"name":"obj_parede","order":1,"path":"objects/obj_parede/obj_parede.yy",},
     {"name":"obj_personagem_hitbox","order":1,"path":"objects/obj_personagem_hitbox/obj_personagem_hitbox.yy",},
     {"name":"obj_transicao_sala","order":10,"path":"objects/obj_transicao_sala/obj_transicao_sala.yy",},
+    {"name":"obj_config","order":19,"path":"objects/obj_config/obj_config.yy",},
     {"name":"par_boss","order":12,"path":"objects/par_boss/par_boss.yy",},
     {"name":"par_inimigos","order":9,"path":"objects/par_inimigos/par_inimigos.yy",},
     {"name":"Room2","order":2,"path":"rooms/Room2/Room2.yy",},

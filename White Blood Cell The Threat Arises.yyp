@@ -35,7 +35,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.2.0.132",
   },
   "name":"White Blood Cell The Threat Arises",
   "resources":[
@@ -55,6 +55,7 @@
     {"id":{"name":"obj_personagem_hitbox","path":"objects/obj_personagem_hitbox/obj_personagem_hitbox.yy",},},
     {"id":{"name":"obj_personagem","path":"objects/obj_personagem/obj_personagem.yy",},},
     {"id":{"name":"obj_transicao_sala","path":"objects/obj_transicao_sala/obj_transicao_sala.yy",},},
+    {"id":{"name":"obj_config","path":"objects/obj_config/obj_config.yy",},},
     {"id":{"name":"par_boss","path":"objects/par_boss/par_boss.yy",},},
     {"id":{"name":"par_inimigos","path":"objects/par_inimigos/par_inimigos.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},

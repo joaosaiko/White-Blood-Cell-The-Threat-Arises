@@ -63,3 +63,4 @@ if (room == Room1) {
 }
 
 dialogo_exibido = false;
+global.boss_derrotado = false;
