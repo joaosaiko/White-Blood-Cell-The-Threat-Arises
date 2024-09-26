@@ -1,5 +1,8 @@
 /// @description Inserir descrição aqui
-script_execute(estado);
+if(!global.dialogo){
+	script_execute(estado);
+}else{
+}
 
 if vida <= 0 {
 	obj_personagem.xp += 60;

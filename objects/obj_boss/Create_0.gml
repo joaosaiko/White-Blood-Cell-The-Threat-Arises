@@ -4,3 +4,5 @@ vida_max = 20;
 vida = vida_max;
 
 ataque = 5;
+
+global.dialogo = true;
