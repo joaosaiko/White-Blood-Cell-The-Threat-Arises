@@ -5,5 +5,8 @@ vida = vida_max;
 
 ataque = 5;
 
-global.dialogo = true;
-boss_vivo = true;
+textBoxBoss = noone;
+textBoss[0] = "Olá me chamo Romullus uma célula cancerígena";
+textBoss[1] = "E destruirei tudo que há de mais precioso neste corpo";
+
+myName = "Rommullus";

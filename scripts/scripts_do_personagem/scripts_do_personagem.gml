@@ -22,6 +22,7 @@ function scr_personagem_colisao(){
 }
 
 function scr_personagem_andando(){
+	
 	direita = keyboard_check(ord("D"));
 	cima = keyboard_check(ord("W"));
 	esquerda = keyboard_check(ord("A"));
