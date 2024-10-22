@@ -61,5 +61,3 @@ if (room == Room1) {
 } else if (room == Room3) {
     tile_layers = ["Tiles_Veins_Back_Room3"];
 }
-
-dialogo_exibido = false;
