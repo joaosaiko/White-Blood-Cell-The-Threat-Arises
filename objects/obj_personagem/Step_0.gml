@@ -1,4 +1,6 @@
-script_execute(estado);
+if(!global.dialogo_ativo){
+	script_execute(estado);
+}
 
 depth = -y;
 

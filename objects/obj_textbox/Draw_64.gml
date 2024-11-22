@@ -36,4 +36,7 @@ if (global.dialogo_ativo) {
     
     // Debug: Desenhar contagem de caracteres para ver o progresso do texto
     draw_text(20, 60, "charCount = " + string(charCount));
+
 }
+
+

@@ -1,10 +1,17 @@
 /// @description Inserir descrição aqui
-// Verifica se está na Room3 e se o diálogo ainda não foi exibido
-if (room == Room3 && !dialogo_exibido) {
-    instance_create_layer(x, y, "GUI", obj_dialogo);
-    dialogo_exibido = true; // Marca que o diálogo foi exibido
-	if(!global.boss_derrotado){
-		instance_deactivate_object(obj_transicao_sala);
-		global.estado_sala = false;
+// Você pode escrever seu código neste editor
+if(room == Room1){
+	if(textBoxNarrador == noone){
+		textBoxNarrador = instance_create_layer(x, y, "Text", obj_textbox);
+		textBoxNarrador.text = textNarrador;
+		textBoxNarrador.creator = self;
+		textBoxNarrador.name = Name;
+		global.dialogo_ativo = true;
+	}
+} else {
+	if(textBoxNarrador != noone){
+		instance_destroy(obj_textbox);
 	}
 }
+
+sprite_index = spr_personagem_parado_direita;  // Define o sprite atual

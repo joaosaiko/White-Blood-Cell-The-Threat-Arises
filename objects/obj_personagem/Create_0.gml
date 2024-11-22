@@ -53,6 +53,14 @@ atacar = false;
 
 dano_alpha = -1;
 
+textBoxNarrador = noone;
+textNarrador[0] = "Você avança pelo Nexus Axilar, onde o calor das grandes artérias pulsa ao seu redor. O ambiente é um labirinto de veias e nervos, cada batida ecoando como um tambor. Faíscas elétricas correm pelos nervos, iluminando a escuridão. Tudo aqui é interconectado, vivo, mas algo está errado. A ameaça espreita, comprometendo a harmonia deste sistema vital.";
+textNarrador[1] = "Seu treinamento como glóbulo branco o preparou para ameaças, mas nada o preparou para Rommulos. Filamentos escuros começam a se espalhar pelos vasos, sufocando o fluxo vital. A célula cancerígena está corroendo o corpo, espalhando caos por onde passa. Sua presença é uma sombra, comprometendo a energia e os nutrientes. O equilíbrio do corpo está em risco.";
+textNarrador[2] = "As artérias brilham fracamente, como se chamassem por ajuda. Este é o campo onde você provará seu valor. O Nexus exige proteção, e a ameaça cresce a cada instante. Você sente a pressão do tempo, sabendo que a sobrevivência do corpo depende de sua ação. Está em suas pseudópodes a responsabilidade de restaurar a harmonia.";
+textNarrador[3] = "Com os nervos vibrando e as artérias pulsando, você se prepara para a batalha. Cada movimento do inimigo é uma ameaça ao fluxo vital. O destino do corpo está em suas mãos, ou melhor, em suas pseudópodes. O Nexus Axilar não pode cair. O equilíbrio está prestes a ser testado, e você é a última linha de defesa.";
+
+Name = "Narrador";
+
 // Definir camadas de tiles específicas para a room atual
 if (room == Room1) {
     tile_layers = ["Tiles_Veins_Back_Room1"];
