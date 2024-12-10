@@ -18,13 +18,24 @@ function scr_ataque_boss_colisao() {
     }
 }
 
-function scr_boss_escolher_ataque(){
-	if alarm[0] <= 0 {
-		var _ataque = choose(scr_boss_ataque_1, scr_boss_ataque_2);
-		estado = _ataque;
-		alarm[0] = 180; //tempo entre cada ataque
-	}
-	
+function scr_boss_escolher_ataque() {
+    if (alarm[0] <= 0) {
+        var _ataque;
+        
+        // Verifica se há inimigos antes de incluir o ataque 3
+        if (scr_verificar_inimigos()) {
+            _ataque = choose(scr_boss_ataque_1, scr_boss_ataque_2); // Sem ataque 3
+        } else {
+            _ataque = choose(scr_boss_ataque_1, scr_boss_ataque_2, scr_boss_ataque_3);
+        }
+        
+        estado = _ataque;
+        alarm[0] = 180; // Tempo entre cada ataque
+    }
+}
+
+function scr_verificar_inimigos() {
+    return instance_exists(obj_inimigo);
 }
 
 function scr_boss_ataque_1(){
@@ -59,4 +70,36 @@ function scr_boss_ataque_2(){
 		instance_create_layer(_xx, _yy, "Instances", obj_boss_ataque_1);
 	}
 	estado = scr_boss_escolher_ataque;
+}
+
+function scr_boss_ataque_3() {
+    // Verifica se já existem inimigos na sala
+    if (scr_verificar_inimigos()) {
+        // Se houver inimigos, não cria novos e retorna para o estado de escolher ataque
+        estado = scr_boss_escolher_ataque;
+        return;
+    }
+    
+    // Coordenadas do boss
+    var _x = obj_boss.x;
+    var _y = obj_boss.y;
+    
+    // Lista de posições relativas (cima, baixo, esquerda, direita, centro)
+    var _posicoes = [
+        [_x, _y - 32], // Cima
+        [_x, _y + 32], // Baixo
+        [_x - 32, _y], // Esquerda
+        [_x + 32, _y], // Direita
+        [_x, _y]       // Centro
+    ];
+    
+    // Loop para criar os inimigos nas posições definidas
+    for (var i = 0; i < array_length(_posicoes); i++) {
+        var _inst = instance_create_layer(_posicoes[i][0], _posicoes[i][1], "Instances", obj_inimigo);
+        // Configurar propriedades adicionais, se necessário
+        _inst.speed = 0; // Deixe-os imóveis no início
+    }
+    
+    // Retorna o estado para escolher o próximo ataque
+    estado = scr_boss_escolher_ataque;
 }

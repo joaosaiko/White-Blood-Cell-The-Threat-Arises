@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_slime_grande_andando",
-    "path":"sprites/spr_slime_grande_andando/spr_slime_grande_andando.yy",
+    "name":"spr_inimigo_parado",
+    "path":"sprites/spr_inimigo_parado/spr_inimigo_parado.yy",
   },
   "spriteMaskId":null,
   "visible":true,

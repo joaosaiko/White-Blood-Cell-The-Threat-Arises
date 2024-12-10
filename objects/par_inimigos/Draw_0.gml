@@ -18,7 +18,16 @@ if dest_x < x{
 }
 
 if alarm[2] >= 0 {
-	var _sprw = sprite_get_width(spr_hud_vida) 
-	draw_sprite_ext(spr_inimigo_hud_vida, 0, x - _sprw/2, y - 8, 1, 1, 0, c_white, 1);
-	draw_sprite_ext(spr_inimigo_barra_vida, 0, x - _sprw/2, y - 8, vida/max_vida, 1, 0, c_white, 1);
+    // Largura da barra de vida (com origem alinhada corretamente)
+    var _sprw = sprite_get_width(spr_inimigo_hud_vida); 
+    
+    // Ajustar a posição para centralizar a barra sobre o inimigo
+    var _x_barra = x - (_sprw / 2); 
+    var _y_barra = y - sprite_get_height(sprite_index) / 2 - 8; // Altura ajustada acima do inimigo
+    
+    // Desenhar a HUD da vida
+    draw_sprite_ext(spr_inimigo_hud_vida, 0, _x_barra, _y_barra, 1, 1, 0, c_white, 1);
+    
+    // Desenhar a barra de vida proporcional
+    draw_sprite_ext(spr_inimigo_barra_vida, 0, _x_barra, _y_barra, vida / max_vida, 1, 0, c_white, 1);
 }
