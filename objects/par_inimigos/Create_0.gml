@@ -20,7 +20,7 @@ dist_no_atack = 100;
 sombra = -1;
 
 //combate
-max_vida = 5;
+max_vida = 50;
 vida = max_vida;
 empurrar_dir = 0;
 empurrar_veloc = 0;

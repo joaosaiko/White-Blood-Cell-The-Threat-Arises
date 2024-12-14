@@ -8,9 +8,9 @@ if other.t_dano == true{
 		// empurrar_dir = _dir;
 		// estado = scr_personagem_hit;
 		alarm[2] = 10;
-		alarm[3] = 180;
+		alarm[3] = 45;
 		t_dano = false;
-		vida -= 1;	
+		vida -= 2;	
 	}
 	var _inst = instance_create_layer(x, y, "Instances", obj_dano);
 	_inst.alvo = other;

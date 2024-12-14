@@ -8,5 +8,5 @@ sombra = spr_slime_grande_sombra;
 
 estado = scr_inimigo_escolher_estado;
 
-max_vida = 8;
+max_vida = 50;
 vida = max_vida;

@@ -10,3 +10,5 @@ textBoss[0] = "Olá me chamo Romullus uma célula cancerígena";
 textBoss[1] = "E destruirei tudo que há de mais precioso neste corpo";
 
 myName = "Rommullus";
+
+global.boss_derrotado = false;

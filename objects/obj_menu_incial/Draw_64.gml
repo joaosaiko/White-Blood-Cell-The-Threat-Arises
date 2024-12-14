@@ -31,7 +31,10 @@ for(var i = 0; i < tam_menu; i++)
 			switch menu_inicial[i]
 			{
 				case menu_inicial[0]://jogar
-					room_goto(Room1);
+					var fade = instance_create_layer(0, 0, "GUI", obj_fade);
+					fade.fade_state = "out";
+					fade.target_room = Room1;
+					//room_goto(Room1);
 					break;
 				case menu_inicial[1]://tutorial
 					room_goto(RoomTutorial);

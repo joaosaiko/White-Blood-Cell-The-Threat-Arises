@@ -10,7 +10,7 @@ draw_set_valign(fa_middle);
 draw_text(room_width / 2, room_height / 4, texto_movimento);
 draw_text(room_width / 2, room_height / 4 + 32, texto_ataque);
 draw_text(room_width / 2, room_height / 4 + 64, texto_dash);
-draw_text(room_width / 2, room_height / 4 + 128, texto_dash);
+draw_text(room_width / 2, room_height / 4 + 128, texto_dialogo);
 draw_text(room_width / 2, room_height / 4 + 245, voltar);
 
 // Resetar alinhamento (boas práticas)

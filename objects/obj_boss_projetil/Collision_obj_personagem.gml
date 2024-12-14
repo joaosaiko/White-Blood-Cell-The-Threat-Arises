@@ -12,5 +12,5 @@ if other.t_dano == true{
 	}
 	var _inst = instance_create_layer(x, y, "Instances", obj_dano);
 	_inst.alvo = other;
-	_inst.dano = 1;
+	_inst.dano = 10;
 }

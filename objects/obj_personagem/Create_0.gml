@@ -20,35 +20,20 @@ estado = scr_personagem_andando;
 
 //combate
 level = 1;
+level_max = 3;
 xp = 0;
-max_xp[1] = 100;
-max_xp[2] = 120;
-max_xp[3] = 150;
-//max_xp[4] = 200;
-//max_xp[5] = 265;
+max_xp = [100, 120, 150];
 
-max_estamina[1] = 100;
-max_estamina[2] = 120;
-max_estamina[3] = 140;
-//max_estamina[4] = 180;
-//max_estamina[5] = 200;
-estamina = max_estamina[level];
+max_estamina = [30, 40, 50];
+estamina = max_estamina[level - 1];
 
-max_vida[1] = 20;
-max_vida[2] = 40;
-max_vida[3] = 80;
-//max_vida[4] = 100;
-//max_vida[5] = 120;
-vida = max_vida[level];
+max_vida = [15, 20, 25];
+vida = max_vida[level - 1];
 
 t_dano = true;
 empurrar_dir = 0;
 
-dano[1] = 1;
-dano[2] = 5;
-dano[3] = 8;
-//dano[4] = 10;
-//dano[5] = 20;
+dano = [5, 10, 15];
 atacar = false;
 
 dano_alpha = -1;
