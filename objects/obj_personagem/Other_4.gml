@@ -5,10 +5,11 @@ if(room == Room1){
 		textBoxNarrador = instance_create_layer(x, y, "Text", obj_textbox);
 		textBoxNarrador.text = textNarrador;
 		textBoxNarrador.creator = self;
-		textBoxNarrador.name = Name;
+		textBoxNarrador.name = NameNarrador;
 		global.dialogo_ativo = true;
 	}
-} else {
+} 
+else {
 	if(textBoxNarrador != noone){
 		instance_destroy(obj_textbox);
 	}

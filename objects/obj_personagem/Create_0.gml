@@ -39,12 +39,18 @@ atacar = false;
 dano_alpha = -1;
 
 textBoxNarrador = noone;
-textNarrador[0] = "Você avança pelo Nexus Axilar, onde o calor das grandes artérias pulsa ao seu redor. O ambiente é um labirinto de veias e nervos, cada batida ecoando como um tambor. Faíscas elétricas correm pelos nervos, iluminando a escuridão. Tudo aqui é interconectado, vivo, mas algo está errado. A ameaça espreita, comprometendo a harmonia deste sistema vital.";
-textNarrador[1] = "Seu treinamento como glóbulo branco o preparou para ameaças, mas nada o preparou para Rommulos. Filamentos escuros começam a se espalhar pelos vasos, sufocando o fluxo vital. A célula cancerígena está corroendo o corpo, espalhando caos por onde passa. Sua presença é uma sombra, comprometendo a energia e os nutrientes. O equilíbrio do corpo está em risco.";
-textNarrador[2] = "As artérias brilham fracamente, como se chamassem por ajuda. Este é o campo onde você provará seu valor. O Nexus exige proteção, e a ameaça cresce a cada instante. Você sente a pressão do tempo, sabendo que a sobrevivência do corpo depende de sua ação. Está em suas pseudópodes a responsabilidade de restaurar a harmonia.";
-textNarrador[3] = "Com os nervos vibrando e as artérias pulsando, você se prepara para a batalha. Cada movimento do inimigo é uma ameaça ao fluxo vital. O destino do corpo está em suas mãos, ou melhor, em suas pseudópodes. O Nexus Axilar não pode cair. O equilíbrio está prestes a ser testado, e você é a última linha de defesa.";
+textNarrador[0] = "Você avança pelo Nexus Axilar, onde o pulsar constante das artérias e nervos ecoa ao seu redor. Algo está errado: pequenas células escuras, semelhantes a chamas negras, infestam o sistema. Elas avançam como um exército silencioso, e você sente que algo maior espreita nas sombras.";
+textNarrador[1] = "Seu treinamento como glóbulo branco preparou você para muitas ameaças, mas nunca para algo assim. Mas seu dever como linfócito é lidar com perigos, mesmo os desconhecidos. Essas células escuras avançam como fogo, corroendo artérias e nervos, enquanto uma ameaça maior pode destruir todo o Nexus Axilar.";
+textNarrador[2] = "O Nexus Axilar clama por ajuda enquanto os filamentos escuros avançam. Elas bloqueiam o fluxo de energia e nutrientes, ameaçando todo o equilíbrio vital. Cada segundo sem ação aumenta o risco de colapso para o sistema imunológico.";
+textNarrador[3] = "Com cada batida dos nervos e o pulsar das artérias, você se prepara para enfrentar Rommulos. Ele consome, destrói e compromete a sobrevivência do corpo. Você é a última barreira contra essa sombra de destruição.";
 
-Name = "Narrador";
+NameNarrador = "Narrador";
+
+textBoxProtagonista = noone;
+textProtagonista[0] = "Eu fui treinado para defender o corpo, mas nunca pensei que enfrentaria algo assim. Não é apenas uma batalha... é uma guerra silenciosa que ameaça tudo o que somos.";
+textProtagonista[1] = "Sinto que algo ameaçador se aproxima, devo me preparar.";
+
+NameProtagonista = "Linfócito";
 
 // Definir camadas de tiles específicas para a room atual
 if (room == Room1) {
