@@ -34,6 +34,7 @@
     {"name":"inst_120C93A8","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_2D2B7093","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_275BC463","path":"rooms/Room2/Room2.yy",},
+    {"name":"inst_3BB2EC1E","path":"rooms/Room2/Room2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -95,6 +96,7 @@
         {"$GMRInstance":"v1","%Name":"inst_1386BC1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1386BC1_1","objectId":{"name":"obj_inimigo_grande","path":"objects/obj_inimigo_grande/obj_inimigo_grande.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":160.0,},
         {"$GMRInstance":"v1","%Name":"inst_2D2B7093","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2D2B7093","objectId":{"name":"obj_transicao_sala","path":"objects/obj_transicao_sala/obj_transicao_sala.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.53125,"scaleY":1.0,"x":502.5,"y":159.0,},
         {"$GMRInstance":"v1","%Name":"inst_275BC463","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_275BC463","objectId":{"name":"obj_trilha_sonora","path":"objects/obj_trilha_sonora/obj_trilha_sonora.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-32.0,"y":32.0,},
+        {"$GMRInstance":"v1","%Name":"inst_3BB2EC1E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3BB2EC1E","objectId":{"name":"obj_texto_protagonista","path":"objects/obj_texto_protagonista/obj_texto_protagonista.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-32.0,"y":64.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_Veins_Front_Room2","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Veins_Front_Room2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":18,"SerialiseWidth":32,"TileCompressedData":[
           -28,-2147483648,-2,0,-21,-2147483648,-3,0,9,268438269,268438268,268438267,268438266,268438265,268438264,

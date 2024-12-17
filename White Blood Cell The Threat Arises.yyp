@@ -69,6 +69,8 @@
     {"id":{"name":"obj_personagem_hitbox","path":"objects/obj_personagem_hitbox/obj_personagem_hitbox.yy",},},
     {"id":{"name":"obj_personagem","path":"objects/obj_personagem/obj_personagem.yy",},},
     {"id":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},},
+    {"id":{"name":"obj_texto_narrador","path":"objects/obj_texto_narrador/obj_texto_narrador.yy",},},
+    {"id":{"name":"obj_texto_protagonista","path":"objects/obj_texto_protagonista/obj_texto_protagonista.yy",},},
     {"id":{"name":"obj_transicao_sala","path":"objects/obj_transicao_sala/obj_transicao_sala.yy",},},
     {"id":{"name":"obj_trilha_sonora","path":"objects/obj_trilha_sonora/obj_trilha_sonora.yy",},},
     {"id":{"name":"obj_tutorial","path":"objects/obj_tutorial/obj_tutorial.yy",},},

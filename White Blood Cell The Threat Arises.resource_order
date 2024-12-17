@@ -45,6 +45,8 @@
     {"name":"obj_parede","order":4,"path":"objects/obj_parede/obj_parede.yy",},
     {"name":"obj_personagem_hitbox","order":1,"path":"objects/obj_personagem_hitbox/obj_personagem_hitbox.yy",},
     {"name":"obj_textbox","order":5,"path":"objects/obj_textbox/obj_textbox.yy",},
+    {"name":"obj_texto_narrador","order":18,"path":"objects/obj_texto_narrador/obj_texto_narrador.yy",},
+    {"name":"obj_texto_protagonista","order":19,"path":"objects/obj_texto_protagonista/obj_texto_protagonista.yy",},
     {"name":"obj_transicao_sala","order":6,"path":"objects/obj_transicao_sala/obj_transicao_sala.yy",},
     {"name":"obj_trilha_sonora","order":17,"path":"objects/obj_trilha_sonora/obj_trilha_sonora.yy",},
     {"name":"obj_tutorial","order":10,"path":"objects/obj_tutorial/obj_tutorial.yy",},
