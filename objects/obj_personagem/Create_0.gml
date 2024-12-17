@@ -33,7 +33,7 @@ vida = max_vida[level - 1];
 t_dano = true;
 empurrar_dir = 0;
 
-dano = [105, 110, 115];
+dano = [5, 10, 15];
 atacar = false;
 
 dano_alpha = -1;
