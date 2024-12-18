@@ -19,4 +19,6 @@ if (audio_is_playing(sb_titan)) {
     audio_sound_gain(sb_titan, 1 - fade_opacity, true); // Fade out conforme a tela escurece
 }else if (audio_is_playing(sb_undertow)){
 	audio_sound_gain(sb_undertow, 1 - fade_opacity, true); // Fade out conforme a tela escurece
+}else if (audio_is_playing(sb_sentinel)) {
+	audio_sound_gain(sb_sentinel, 1 - fade_opacity, true); // Fade out conforme a tela escurece
 }
