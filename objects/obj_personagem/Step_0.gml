@@ -1,4 +1,10 @@
 if (!global.dialogo_ativo) {
+	if(room == Room2){
+	// Todos os inimigos foram derrotados
+	if(instance_number(obj_inimigo) == 0 && instance_number(obj_inimigo_grande) == 0){
+		sprite_index = spr_personagem_parado_direita;
+		}
+	}
     script_execute(estado);
 }
 
@@ -36,11 +42,4 @@ if (instance_exists(obj_game_controle) && vida <= 0) {
 
 if (room == RoomEncerramento){
 	instance_destroy();
-}
-
-if(room == Room2){
-	// Todos os inimigos foram derrotados
-	if(instance_number(obj_inimigo) == 0 && instance_number(obj_inimigo_grande) == 0){
-		sprite_index = spr_personagem_parado_direita;
-	}
 }

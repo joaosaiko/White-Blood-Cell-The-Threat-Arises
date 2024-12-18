@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_transicao_sala",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_parede_boss",
+  "eventList":[],
   "managed":true,
-  "name":"obj_transicao_sala",
+  "name":"obj_parede_boss",
   "overriddenProperties":[],
   "parent":{
     "name":"componentes",
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_transicao",
-    "path":"sprites/spr_transicao/spr_transicao.yy",
+    "name":"spr_parede_boss",
+    "path":"sprites/spr_parede_boss/spr_parede_boss.yy",
   },
   "spriteMaskId":null,
   "visible":false,
