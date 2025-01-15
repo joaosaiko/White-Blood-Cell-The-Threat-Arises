@@ -92,7 +92,6 @@
     {"id":{"name":"scripts_do_boss","path":"scripts/scripts_do_boss/scripts_do_boss.yy",},},
     {"id":{"name":"scripts_do_personagem","path":"scripts/scripts_do_personagem/scripts_do_personagem.yy",},},
     {"id":{"name":"scripts_inimigo","path":"scripts/scripts_inimigo/scripts_inimigo.yy",},},
-    {"id":{"name":"scripts_quebra_linha","path":"scripts/scripts_quebra_linha/scripts_quebra_linha.yy",},},
     {"id":{"name":"sb_sentinel","path":"sounds/sb_sentinel/sb_sentinel.yy",},},
     {"id":{"name":"sb_titan","path":"sounds/sb_titan/sb_titan.yy",},},
     {"id":{"name":"sb_undertow","path":"sounds/sb_undertow/sb_undertow.yy",},},

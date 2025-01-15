@@ -66,7 +66,6 @@
     {"name":"funcoes","order":2,"path":"scripts/funcoes/funcoes.yy",},
     {"name":"scripts_do_boss","order":3,"path":"scripts/scripts_do_boss/scripts_do_boss.yy",},
     {"name":"scripts_inimigo","order":1,"path":"scripts/scripts_inimigo/scripts_inimigo.yy",},
-    {"name":"scripts_quebra_linha","order":4,"path":"scripts/scripts_quebra_linha/scripts_quebra_linha.yy",},
     {"name":"sb_titan","order":1,"path":"sounds/sb_titan/sb_titan.yy",},
     {"name":"sb_undertow","order":2,"path":"sounds/sb_undertow/sb_undertow.yy",},
     {"name":"Ground","order":2,"path":"sprites/Ground/Ground.yy",},
