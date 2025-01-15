@@ -37,10 +37,13 @@ for(var i = 0; i < tam_menu; i++)
 					fade.target_room = Room1;
 					//room_goto(Room1);
 					break;
-				case menu_inicial[1]://tutorial
+				case menu_inicial[1]:
+					room_goto(RoomPersonagensInfo)
+					break;
+				case menu_inicial[2]://tutorial
 					room_goto(RoomTutorial);
 					break;
-				case menu_inicial[2]:
+				case menu_inicial[3]:
 					game_end();
 			}
 		}

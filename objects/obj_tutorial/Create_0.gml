@@ -4,8 +4,8 @@
 texto_movimento = "Use W, A, S, D para andar";
 texto_ataque = "Clique esquerdo do mouse para atacar";
 texto_dash = "Clique direito do mouse para dar dash/esquiva";
-texto_dialogo = "Precione espaço para pular os diálogos";
-voltar = "Precione esc para voltar para o menu";
+texto_dialogo = "Precione [espaço] para pular os diálogos";
+voltar = "Precione [esc] para voltar para o menu";
 
 
 // Evento Create

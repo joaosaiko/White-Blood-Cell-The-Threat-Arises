@@ -5,7 +5,14 @@ var sala_atual = room;
 switch sala_atual {
 	case RoomMenu:
 		audio_stop_sound(sb_sentinel)
-		audio_play_sound(sb_titan, 1, true);
+		if(audio_is_playing(sb_titan)){
+			audio_resume_sound(sb_titan)
+		}else{
+			audio_play_sound(sb_titan, 1, true);
+		}
+		break;
+	case RoomPersonagensInfo:
+		audio_resume_sound(sb_titan)
 		break;
 	case RoomTutorial:
 		audio_resume_sound(sb_titan);
