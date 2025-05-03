@@ -69,7 +69,7 @@
     {"name":"sb_titan","order":1,"path":"sounds/sb_titan/sb_titan.yy",},
     {"name":"sb_undertow","order":2,"path":"sounds/sb_undertow/sb_undertow.yy",},
     {"name":"Ground","order":2,"path":"sprites/Ground/Ground.yy",},
-    {"name":"logo_jogo","order":37,"path":"sprites/logo_jogo/logo_jogo.yy",},
+    {"name":"logo_jogo","order":8,"path":"sprites/logo_jogo/logo_jogo.yy",},
     {"name":"Objects","order":3,"path":"sprites/Objects/Objects.yy",},
     {"name":"spr_boss_attack_1","order":1,"path":"sprites/spr_boss_attack_1/spr_boss_attack_1.yy",},
     {"name":"spr_boss_hud","order":2,"path":"sprites/spr_boss_hud/spr_boss_hud.yy",},

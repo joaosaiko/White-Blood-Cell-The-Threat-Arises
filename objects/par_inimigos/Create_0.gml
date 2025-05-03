@@ -15,12 +15,12 @@ dest_y = 0;
 alarm[0] = 1;
 
 dist_atack = 50;
-dist_no_atack = 100;
+dist_no_atack = 80;
 
 sombra = -1;
 
 //combate
-max_vida = 50;
+max_vida = 20;
 vida = max_vida;
 empurrar_dir = 0;
 empurrar_veloc = 0;
